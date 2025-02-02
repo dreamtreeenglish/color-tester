@@ -1,0 +1,109 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Styling for the Color Tester app for ESL elementary students */
+
+body {
+  font-family: cursive;
+  background-color: #f0f8ff; /* Light blue background for a calm environment */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+#directions {
+  text-align: center;
+}
+
+h4 {
+  color: #34495e;
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 30px;
+  max-width: 80%;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+input {
+  font-size: 1rem;
+  padding: 10px;
+  border: 2px solid #bdc3c7;
+  border-radius: 5px;
+  width: 200px;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #3498db; /* Blue button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+button:focus {
+  outline: 2px solid #1abc9c; /* Green outline on focus */
+}
+
+#answer, #answer2, #answer3, #answer4, #answer5, #answer6, #answer7, #answer8, #answer9, #answer10 {
+  font-weight: bold;
+}
+
+#answer span, #answer2 span, #answer3 span, #answer4 span, #answer5 span, #answer6 span, #answer7 span, #answer8 span, #answer9 span, #answer10 span {
+  font-size: 1.2rem;
+}
+
+#final-great-job {
+  font-size: 1.5rem;
+  color: #2ecc71; /* Green for the congratulatory message */
+  margin-top: 20px;
+}
+
+#refresh-button {
+  font-size: 1rem;
+  padding: 10px 30px;
+  background-color: #e74c3c; /* Red button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#refresh-button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+/* Centering the content */
+main {
+  text-align: center;
+  padding: 20px;
+}
